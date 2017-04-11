@@ -1,0 +1,22 @@
+{
+  "name": "first_launch_node",
+  "version": "0.0.1",
+  "description": "init to node.js",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "node serveur.js"
+  },
+"dependencies":{
+"express": "4.13.3"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m4tieu/firstLaunchNode"
+  },
+  "author": "m4tieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m4tieu/firstLaunchNode/issues"
+  },
+  "homepage": "https://github.com/m4tieu/firstLaunchNode#readme"
+}
