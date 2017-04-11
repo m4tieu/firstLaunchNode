@@ -4,7 +4,7 @@ var appli = express()
 appli.get(
 	'/',
 	function(request, response){
-		response.send('Bonjour maitre');
+		response.sendFile( __dirname + '/view/index.html');
 	}
 );
 appli.get(
